@@ -9,7 +9,7 @@ public class ServicoDeNotificacao {
     }
 
     public void notificarTodos(String mensagem){
-        System.out.println("=== Deisparando notificacoes ===");
+        System.out.println("=== Disparando notificacoes ===");
         for(Notificavel canal : canais){
             canal.enviarNotificacao(mensagem);
         }
